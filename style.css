@@ -9,7 +9,7 @@ body {
 
 .banner {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),
-        url('../assets/images/banner.png') no-repeat;
+        url('assets/images/banner.png') no-repeat;
     background-size: cover;
     height: 600px;
     padding-top: 60px;
@@ -107,7 +107,7 @@ section h2 {
 }
 
 #transform-world {
-    background: url('../assets/images/woman-code.png') no-repeat;
+    background: url('assets/images/woman-code.png') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     border: 1px solid #33A8DB80;
