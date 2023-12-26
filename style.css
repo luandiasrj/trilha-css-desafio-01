@@ -2,20 +2,19 @@
 @import 'reset.css';
 
 body {
-    background-color: #000000;
+    background: #000;
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    color: #fff;
 }
 
 .banner {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),
         url('../assets/images/banner.png') no-repeat;
-    background-size: cover, cover;
+    background-size: cover;
     height: 600px;
     padding-top: 60px;
     border-bottom: 1px solid #33A8DB80;
 }
-
 
 .banner .banner-content {
     max-width: 600px;
@@ -31,9 +30,8 @@ body {
     margin: auto;
     border-radius: 50%;
     padding: 16px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     margin-bottom: 16px;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -45,11 +43,9 @@ body {
 }
 
 .banner h1 {
-    font-size: 2.5rem;
+    font: 2.5rem 'Raleway', sans-serif;
     font-weight: 900;
-    margin-bottom: 16px;
     text-transform: uppercase;
-    /* texto com cliping */
     background: linear-gradient(#33A8DB, #1472B7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -66,8 +62,7 @@ body {
     border-image-slice: 1;
     box-sizing: border-box;
     color: #33A8DB;
-    font-size: 1rem;
-    font-weight: 700;
+    font: 700 1rem 'Raleway', sans-serif;
     letter-spacing: 4px;
     margin: 0;
     padding: 16px 32px;
@@ -85,11 +80,11 @@ section {
 
 section h2 {
     font-size: 2rem;
-    font-weight: bold;
     margin-bottom: 24px;
     text-transform: uppercase;
     color: #33A8DB;
     letter-spacing: 4px;
+    font-weight: bold;
 }
 
 #course-content .modules-list {
@@ -100,10 +95,10 @@ section h2 {
     margin: 0 auto 24px;
     padding: 16px;
     border-radius: 100px;
-    background-color: #252525;
+    background: #252525;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
     width: 530px;
-    color: white;
+    color: #fff;
     border: 1px solid #33A8DB;
 }
 
@@ -112,9 +107,9 @@ section h2 {
 }
 
 #transform-world {
-    background-attachment: fixed;
-    background-image: url('../assets/images/woman-code.png');
+    background: url('../assets/images/woman-code.png') no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     border: 1px solid #33A8DB80;
     border-width: 1px 0;
     height: 560px;
@@ -122,24 +117,24 @@ section h2 {
 }
 
 #transform-world p {
-    color: #ffffff;
+    color: #fff;
     font-size: 2.5rem;
-    font-weight: 900;
     margin: 0;
     max-width: 250px;
     text-shadow: 3px 2px 0px rgb(51, 168, 219);
     text-transform: lowercase;
+    font-weight: 900;
+
 }
 
 #professional-challenges {
     text-align: center;
-    width: 800px;
+    max-width: 800px;
 }
 
 #professional-challenges img {
     margin: 32px 0;
 }
-
 
 footer {
     background: linear-gradient(rgba(50, 168, 219, 0), rgba(50, 168, 219, 0.2));
@@ -156,9 +151,6 @@ footer .dio-logo {
 footer a {
     box-sizing: border-box;
     color: rgb(51, 168, 219);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    margin: 0;
-    text-align: center;
-    text-decoration: none solid rgb(51, 168, 219);
+    font: 700 1rem 'Raleway', sans-serif;
+    text-decoration: none;
 }
